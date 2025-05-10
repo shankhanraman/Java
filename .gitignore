@@ -1,0 +1,5 @@
+# Ignore all .class files
+*.class
+
+# Allow all .java files
+!*.java
