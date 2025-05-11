@@ -7,5 +7,6 @@ public class instanceVariables {
     Song song2 = new Song();
     song2.setArtist("Sex Pistols");
     song2.setTitle("My Way");
+    pu
 }
 }
