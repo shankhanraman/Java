@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Allow .java files
+!*.java
+
+# But still ignore compiled Java bytecode
+*.class
