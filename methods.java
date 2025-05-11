@@ -41,17 +41,22 @@ class ElectricGuitar {
     rockStarUsesIt = yesOrNo;
   }
 }
+// Package private access modifier
 // The following code is a simple example of a class with methods encapsulation 
 // Mark instance variables private.
 // Mark getters and setters public.
-class goodDog {
+class goodDog { // * class name should be capital 
   private int size; // instance variable private 
-  String name;
+  private String name; // if 
   public int getSize() { // getter method public
     return size;
   }
   public void setSize(int s) { // setter method public
-    size = s;
+    if(size<0 || size > 100) { // You can enforce the constraint here by using 
+      System.out.println("Size is not valid");
+      return;
+    }
+    size = s; 
   }
 
   void bark() {
